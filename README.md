@@ -34,6 +34,6 @@ This is a fully responsive website created for promoting and selling organic fee
 1. Ensure your server supports **PHP** and a web environment (e.g., Apache or XAMPP).
 2. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/organic-feed-website.git
+   git clone https://github.com/yourusername/organic-feed.git
 3. Place the project files in your web server directory.
 4. Open index.php in your browser to explore the website.
