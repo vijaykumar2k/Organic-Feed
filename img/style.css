@@ -1,0 +1,1139 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    /* font-family: "Raleway", sans-serif; */
+    font-weight: 950px;
+    color: #222;
+    word-spacing: 7px;
+    /* background-image: url('img/white_background.jpg'); */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* Ensures the image stays fixed while content moves */
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+.custom-navbar {
+    background-image: url('img/nav-background2.jpg');
+    background-size: cover;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    padding: .7rem;
+}
+
+.navbar-brand img {
+    width: 150px;
+    height: auto;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #292929;
+    /* Change text color to be visible on the background */
+    font-weight: bold;
+}
+
+.navbar-toggler {
+    border: none;
+    /* Remove the border from the toggle button */
+}
+
+.navbar-toggler-icon {
+    background-color: #fff;
+    /* Optional: Change the icon color for better visibility */
+}
+
+@media (max-width: 768px) {
+    .custom-navbar {
+        background-size: cover;
+    }
+    .navbar-nav {
+        /* background-color: rgba(0, 0, 0, 0.7); */
+        /* Optional: Add a semi-transparent background on mobile for contrast */
+    }
+    .navbar-nav .nav-item .nav-link {
+        color: #292929;
+        ;
+        /* Ensure text remains visible on mobile */
+        padding: 10px;
+        text-align: center;
+    }
+}
+
+.carousel-inner img {
+    width: 100%;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel-caption h1 {
+    font-size: 500%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 10px #000;
+}
+
+.carousel-caption h3 {
+    font-size: 200%;
+    font-weight: 500;
+    text-shadow: 1px 1px 10px #000;
+    padding-bottom: 1rem;
+}
+
+.btn-primary {
+    background-color: #6648b1;
+    border: 1px solid #564d7c;
+}
+
+.btn-primary:hover {
+    background-color: #563d7c;
+    border: 1px solid #563d7c;
+}
+
+.jumbotron {
+    padding: 1rem;
+    border-radius: 0;
+}
+
+.padding {
+    padding-bottom: 2rem;
+}
+
+.welcome {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+.welcome hr {
+    border-top: 2px solid #b4b4b4;
+    width: 95%;
+    margin-top: .3rem;
+    margin-bottom: 1rem;
+}
+
+.link-background {
+    color: #000000;
+}
+
+.link-background:hover {
+    color: #f88440;
+    /* Ensure hover color matches background color */
+    text-decoration: none;
+    /* Ensure no underline on hover */
+}
+
+.managers-img {
+    width: 200px;
+    /* Set a fixed width for the images */
+    height: 200px;
+    /* Set a fixed height for the images */
+    object-fit: cover;
+    /* Ensure the images fit within the circle */
+    margin: 0 auto;
+    /* Center the image within the card */
+}
+
+.card {
+    margin: 0 10px;
+    text-align: center;
+    /* Control spacing between cards */
+}
+
+.social a {
+    font-size: 3.5em;
+    padding: 2rem;
+}
+
+.fa-facebook-f {
+    color: #37b9e9;
+    ;
+}
+
+.fa-twitter {
+    color: #00aced;
+}
+
+.fa-youtube {
+    color: #bb0000;
+}
+
+.fa-instagram {
+    color: #517fa8;
+}
+
+.fa-linkedin-in {
+    color: #009bd3;
+}
+
+.fa-facebook-f:hover,
+.fa-twitter:hover,
+.fa-youtube:hover,
+.fa-instagram:hover,
+.fa-linkedin-in :hover {
+    color: #494949;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #ffffff;
+    padding-top: 2rem;
+}
+
+hr.light {
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+
+footer a {
+    color: #ffffff;
+}
+
+hr.light-100 {
+    border-top: 1px solid #d5d5d5;
+    width: 100%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+
+
+/* -------------------Important affiliation hover details ------------------------- */
+
+
+/* .affiliation-card {
+    position: relative;
+    overflow: hidden;
+} */
+
+
+/* Image styling */
+
+
+/* .affiliation-card-img-top {
+    transition: transform 0.5s ease;
+} */
+
+
+/* On hover, scale the image */
+
+
+/* .affiliation-card:hover .affiliation-card-img-topa {
+    transform: scale(1.1);
+} */
+
+
+/* Details box */
+
+
+/* .affiliation-card-body {
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    text-align: center;
+    transition: bottom 0.5s ease;
+    padding: 15px;
+} */
+
+
+/* Show the details on hover */
+
+
+/* .affiliation-card:hover .affiliation-card-body {
+    bottom: 0;
+} */
+
+
+/* ------------------------------------end affiliation---------------- */
+
+
+/*---Media Queries --*/
+
+@media (min-width: 1500px) {
+    h2 {
+        font-size: 2.5rem;
+        /* Adjust as needed */
+    }
+    h3 {
+        font-size: 2rem;
+        /* Adjust as needed */
+    }
+    h4 {
+        font-size: 1.5rem;
+        /* Adjust as needed */
+    }
+    .division-product-slider {
+        width: 30%;
+        height: 300px;
+        /* Ensure the container height is fixed */
+        position: relative;
+        /* Ensure proper positioning of children */
+        overflow: hidden;
+    }
+    .division-product-slider .carousel-inner {
+        height: 100%;
+        /* Match the height of the container */
+    }
+    .division-product-slider img {
+        width: 100%;
+        /* Ensure the image takes the full width of the carousel */
+        height: 100%;
+        /* Make the image fill the height of the container */
+        object-fit: cover;
+        /* Ensures the entire image is visible without cropping */
+        background-color: #a82f2f;
+        /
+    }
+}
+
+@media (max-width: 1500px) {
+    body {
+        /* background-color: #000000; */
+    }
+    h2 {
+        font-size: 2.2rem;
+        /* Adjust as needed */
+    }
+    h3 {
+        font-size: 1.8rem;
+        /* Adjust as needed */
+    }
+    h4 {
+        font-size: 1.4rem;
+        /* Adjust as needed */
+    }
+    .carousel-inner img {
+        width: 100%;
+        height: 560px;
+    }
+    .carousel-inner-product {
+        height: 400px;
+        /* Ensure consistent height */
+        /* background-color: #25252569; */
+    }
+    .product-division-img {
+        background-position: center;
+        background-size: cover;
+        /* margin-right: 50px; */
+    }
+    .product-division-img img {
+        /* width: 100%; */
+        /* height: 200px; */
+        /* object-fit: cover; */
+        /* Ensure the image covers the container */
+        /* object-position: center; */
+        /* Center the image */
+    }
+    .carousel-item:nth-child(1) .product-division-img {
+        background-image: url('img/product_1.jpg');
+    }
+    .carousel-item:nth-child(2) .product-division-img {
+        background-image: url('img/product_1.jpg');
+    }
+    .carousel-item:nth-child(3) .product-division-img {
+        background-image: url('img/product_1.jpg');
+    }
+    .product-indicators li {
+        background-color: #000000;
+        /* Default (inactive) color */
+        border-radius: 50%;
+        /* Make them circular */
+    }
+    .product-indicators .active {
+        background-color: #909291;
+        /* Active (selected) color */
+    }
+    /* Hide scrollbars */
+    body {
+        overflow-x: hidden;
+        /* Prevent horizontal scrollbars */
+    }
+    /* Optional: Ensure the page has no vertical movement when changing slides */
+    .carousel-item {
+        min-height: 400px;
+        /* Match the height of the container */
+    }
+    .division-right {
+        padding-right: 3rem;
+        padding-left: 1rem;
+        /* background: #000; */
+    }
+    .division-left {
+        padding-right: 1rem;
+        padding-left: 3rem;
+        /* background: #000; */
+    }
+    .management-card {
+        padding-top: 3px;
+    }
+    .division-product-slider {
+        width: 30%;
+        height: 300px;
+        /* Ensure the container height is fixed */
+        position: relative;
+        /* Ensure proper positioning of children */
+        overflow: hidden;
+    }
+    .division-product-slider .carousel-inner {
+        height: 100%;
+        /* Match the height of the container */
+    }
+    .division-product-slider img {
+        width: 100%;
+        /* Ensure the image takes the full width of the carousel */
+        height: 100%;
+        /* Make the image fill the height of the container */
+        object-fit: cover;
+        /* Ensures the entire image is visible without cropping */
+        background-color: #a82f2f;
+        /
+    }
+}
+
+@media (max-width: 1024px) {
+    body {
+        /* background-color: #009bd360; */
+    }
+    h2 {
+        font-size: 1.8rem;
+        /* Adjust as needed */
+    }
+    h3 {
+        font-size: 1.6rem;
+        /* Adjust as needed */
+    }
+    h4 {
+        font-size: 1.3rem;
+        /* Adjust as needed */
+    }
+    p {
+        /* color: #6648b1; */
+        font-size: small;
+    }
+    h1 {
+        /* color: #563d7c; */
+        font-size: 40px;
+    }
+    .products-section {
+        margin-bottom: 50px;
+        /* Adjust as needed */
+    }
+    .carousel-inner-product {
+        height: 350px;
+        /* Ensure consistent height */
+        /* background-color: #25252569; */
+    }
+    .product-division-img {
+        width: 100%;
+        height: 320px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: #009bd3;
+        /* margin-right: 50px; */
+    }
+    .product-indicators li {
+        background-color: #000000;
+        /* Default (inactive) color */
+        border-radius: 50%;
+        /* Make them circular */
+    }
+    .product-indicators .active {
+        background-color: #909291;
+        /* Active (selected) color */
+    }
+    /* .affiliations-section {
+        margin-top: 100px;
+        padding-bottom: 50px;
+    } */
+    .philosophy-div {
+        height: 230px;
+        width: auto;
+    }
+    .philosophy-div img {
+        width: 80%;
+        height: 230px;
+    }
+    .social a {
+        font-size: 4em;
+        padding: 2rem;
+    }
+    .carousel-inner img {
+        width: 100%;
+        height: 400px;
+    }
+    .division-right {
+        padding-right: 3rem;
+        padding-left: 3rem;
+        /* background: #000; */
+    }
+    .division-left {
+        padding-right: 3rem;
+        padding-left: 3rem;
+        /* background: #000; */
+    }
+    .division-product-slider {
+        width: 35%;
+        height: 200px;
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+        /* Adjust base font size for better readability on mobile */
+    }
+    h2 {
+        font-size: 1.6rem;
+        /* Adjust as needed */
+    }
+    h3 {
+        font-size: 1.4rem;
+        /* Adjust as needed */
+    }
+    h4 {
+        font-size: 1.2rem;
+        /* Adjust as needed */
+    }
+    .custom-navbar {
+        /* background-image: none; */
+        /* Remove background image for better mobile performance */
+        /* background-color: #333; */
+        /* Set a solid background color */
+    }
+    .navbar-brand img {
+        width: 120px;
+        /* Smaller logo for mobile */
+    }
+    .navbar-nav .nav-item .nav-link {
+        font-size: 14px;
+        /* Adjust font size for nav links */
+        padding: 8px;
+        /* Reduce padding */
+        text-align: center;
+        /* Center align text */
+    }
+    .carousel-caption h1 {
+        font-size: 2.5rem;
+        /* Smaller font size for headings */
+    }
+    .carousel-caption h3 {
+        font-size: 1.5rem;
+        /* Smaller font size for subheadings */
+    }
+    .btn-primary {
+        font-size: 14px;
+        /* Adjust button text size */
+        padding: 10px 15px;
+        /* Adjust button padding */
+    }
+    .welcome {
+        width: 90%;
+        /* Increase width for better mobile view */
+        padding-top: 1rem;
+        /* Adjust padding */
+    }
+    .carousel-inner-product {
+        height: 300px;
+        /* Reduce height for mobile */
+    }
+    .product-division-img {
+        height: 250px;
+        /* Adjust height for mobile */
+    }
+    .card {
+        margin: 0 5px;
+        /* Reduce margin between cards */
+    }
+    .social a {
+        font-size: 2em;
+        /* Smaller social icon size for mobile */
+        padding: 1rem;
+        /* Reduce padding */
+    }
+    .footer {
+        padding: 1rem;
+        /* Adjust footer padding */
+    }
+    .philosophy-div {
+        height: auto;
+        /* Allow height to adjust based on content */
+        width: 100%;
+        /* Ensure image scales properly */
+    }
+    .philosophy-div img {
+        width: 100%;
+        /* Ensure image scales to container width */
+        height: auto;
+        /* Maintain aspect ratio */
+    }
+}
+
+@media (max-width: 576px) {
+    body {
+        font-size: 12px;
+    }
+    h2 {
+        font-size: 1.4rem;
+        /* Adjust as needed */
+    }
+    h3 {
+        font-size: 1.2rem;
+        /* Adjust as needed */
+    }
+    h4 {
+        font-size: 1rem;
+        /* Adjust as needed */
+    }
+    .custom-navbar {
+        /* background-image: none; */
+        /* Remove background image for simplicity */
+        /* background-color: #333; */
+        /* Set a solid color for better mobile performance */
+    }
+    .navbar-brand img {
+        width: 100px;
+        /* Further reduce logo size */
+    }
+    .navbar-nav .nav-item .nav-link {
+        font-size: 12px;
+        /* Smaller font size for nav links */
+        padding: 5px;
+        /* Reduce padding */
+        text-align: center;
+        /* Center align text */
+    }
+    /* Carousel container */
+    .top-slider {
+        height: 200px;
+        /* Adjust height as needed for smaller screens */
+    }
+    /* Carousel inner and images */
+    .carousel-inner {
+        height: 100%;
+    }
+    .carousel-item {
+        height: 100%;
+    }
+    .carousel-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        /* Ensure the image covers the container */
+    }
+    /* Adjust text and button sizes if needed */
+    .jumbotron {
+        padding: 1rem;
+        /* Adjust padding */
+    }
+    .jumbotron p {
+        font-size: 14px;
+        /* Adjust font size */
+    }
+    .btn-lg {
+        font-size: 14px;
+        /* Adjust button font size */
+        padding: 0.5rem 1rem;
+        /* Adjust button padding */
+    }
+    .carousel-caption h1 {
+        font-size: 2rem;
+        /* Further reduce heading size */
+    }
+    .carousel-caption h3 {
+        font-size: 1.2rem;
+        /* Further reduce subheading size */
+    }
+    .btn-primary {
+        font-size: 12px;
+        /* Adjust button text size */
+        padding: 8px 12px;
+        /* Adjust button padding */
+    }
+    .welcome {
+        width: 95%;
+        /* Increase width to utilize more screen space */
+        padding-top: 0.5rem;
+        /* Adjust padding for smaller screens */
+    }
+    .carousel-inner-product {
+        height: 250px;
+        /* Reduce height for very small screens */
+    }
+    .product-division-img {
+        height: 200px;
+        /* Further reduce height for mobile */
+    }
+    .affiliations-section {
+        /* Adjust margin and padding if needed */
+        margin-top: 50px;
+        /* Example: Adjust margin as needed */
+        padding-bottom: 20px;
+        /* Example: Adjust padding as needed */
+    }
+    .affiliation-img {
+        height: 100px;
+        /* Reduce height of affiliation images */
+        width: auto;
+        /* Maintain aspect ratio */
+        object-fit: cover;
+        /* Ensure image covers the area without distortion */
+    }
+    /* Optionally adjust the container or card if necessary */
+    .affiliation-card {
+        padding: 10px;
+        /* Adjust padding for the card/container */
+        text-align: center;
+        /* Center-align content if needed */
+    }
+    .card {
+        margin: 0 3px;
+        /* Reduce margin to maximize space */
+    }
+    .social a {
+        font-size: 1.5em;
+        /* Smaller social icon size */
+        padding: 0.5rem;
+        /* Adjust padding */
+    }
+    footer {
+        padding: 0.5rem;
+        /* Adjust footer padding */
+    }
+    .philosophy-div {
+        height: auto;
+        /* Let content dictate height */
+        width: 100%;
+        /* Ensure the image fits the screen width */
+    }
+    .philosophy-div img {
+        width: 100%;
+        /* Ensure image scales to container width */
+        height: auto;
+        /* Maintain aspect ratio */
+    }
+    .carousel-inner img {
+        height: 250px;
+        /* Reduce image height for small screens */
+    }
+    .product-division-img {
+        background-position: center;
+        background-size: cover;
+        /* Ensure background covers the div */
+    }
+    .division-left,
+    .division-right {
+        padding: 1rem;
+        /* Reduce padding for smaller screens */
+    }
+}
+
+@media (max-width: 375px) {
+    body {
+        font-size: 14px;
+        /* Adjust base font size for better readability on small screens */
+    }
+    h2 {
+        font-size: 1.2rem;
+        /* Adjust as needed */
+    }
+    h3 {
+        font-size: 1rem;
+        /* Adjust as needed */
+    }
+    h4 {
+        font-size: 0.9rem;
+        /* Adjust as needed */
+    }
+    .custom-navbar {
+        /* background-image: none; */
+        /* Remove background image for simplicity */
+        /* background-color: #333; */
+        /* Set a solid color for better performance */
+    }
+    .navbar-brand img {
+        width: 120px;
+        /* Reduce logo size for smaller screens */
+    }
+    .navbar-nav .nav-item .nav-link {
+        font-size: 14px;
+        /* Smaller font size for nav links */
+        padding: 6px;
+        /* Reduce padding */
+        text-align: center;
+        /* Center-align text */
+    }
+    /* Carousel container */
+    .top-slider {
+        height: 250px;
+        /* Adjust height for smaller screens */
+    }
+    /* Carousel inner and images */
+    .carousel-inner {
+        height: 100%;
+    }
+    .carousel-item {
+        height: 100%;
+    }
+    .carousel-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        /* Ensure the image covers the container without distortion */
+    }
+    /* Adjust text and button sizes */
+    .jumbotron {
+        padding: 0.5rem;
+        /* Adjust padding */
+    }
+    .jumbotron p {
+        font-size: 14px;
+        /* Adjust font size */
+    }
+    .btn-lg {
+        font-size: 14px;
+        /* Adjust button font size */
+        padding: 0.5rem 1rem;
+        /* Adjust button padding */
+    }
+    .carousel-caption h1 {
+        font-size: 2rem;
+        /* Further reduce heading size */
+    }
+    .carousel-caption h3 {
+        font-size: 1.2rem;
+        /* Further reduce subheading size */
+    }
+    .btn-primary {
+        font-size: 12px;
+        /* Adjust button text size */
+        padding: 8px 12px;
+        /* Adjust button padding */
+    }
+    .welcome {
+        width: 95%;
+        /* Increase width to utilize more screen space */
+        padding-top: 0.5rem;
+        /* Adjust padding for smaller screens */
+    }
+    .carousel-inner-product {
+        height: 300px;
+        /* Adjust height for smaller screens */
+    }
+    .product-division-img {
+        height: 250px;
+        /* Reduce height for smaller screens */
+    }
+    .affiliations-section {
+        margin-top: 40px;
+        /* Adjust margin as needed */
+        padding-bottom: 20px;
+        /* Adjust padding as needed */
+    }
+    .affiliation-img {
+        height: 120px;
+        /* Adjust height of affiliation images */
+        width: auto;
+        /* Maintain aspect ratio */
+        object-fit: cover;
+        /* Ensure image covers the area without distortion */
+    }
+    .affiliation-card {
+        padding: 8px;
+        /* Adjust padding for the card/container */
+        text-align: center;
+        /* Center-align content if needed */
+    }
+    .card {
+        margin: 0 3px;
+        /* Reduce margin to maximize space */
+    }
+    .social a {
+        font-size: 1.5em;
+        /* Smaller social icon size */
+        padding: 0.5rem;
+        /* Adjust padding */
+    }
+    footer {
+        padding: 0.5rem;
+        /* Adjust footer padding */
+    }
+    .philosophy-div {
+        height: auto;
+        /* Let content dictate height */
+        width: 100%;
+        /* Ensure the image fits the screen width */
+    }
+    .philosophy-div img {
+        width: 100%;
+        /* Ensure image scales to container width */
+        height: auto;
+        /* Maintain aspect ratio */
+    }
+    .carousel-inner img {
+        height: 200px;
+        /* Further reduce image height for small screens */
+    }
+    .product-division-img {
+        background-position: center;
+        background-size: cover;
+        /* Ensure background covers the div */
+    }
+    .division-left,
+    .division-right {
+        padding: 0.5rem;
+        /* Reduce padding for smaller screens */
+    }
+}
+
+@media (max-width: 320px) {
+    body {
+        font-size: 10px;
+        /* Further reduce font size for very small screens */
+    }
+    .custom-navbar {
+        /* Background image removed for simplicity */
+        /* background-color: #333; */
+        /* Solid color for better performance */
+    }
+    .navbar-brand img {
+        width: 80px;
+        /* Further reduce logo size */
+    }
+    .navbar-nav .nav-item .nav-link {
+        font-size: 10px;
+        /* Further reduce font size for nav links */
+        padding: 3px;
+        /* Reduce padding */
+        text-align: center;
+    }
+    .top-slider {
+        height: 150px;
+        /* Adjust height as needed for very small screens */
+    }
+    .carousel-inner {
+        height: 100%;
+    }
+    .carousel-item {
+        height: 100%;
+    }
+    .carousel-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        /* Ensure the image covers the container without distortion */
+    }
+    .carousel-control-prev,
+    .carousel-control-next {
+        /* Adjust size and position of controls if needed */
+        font-size: 14px;
+        /* Smaller size for smaller screens */
+        padding: 0.5rem;
+        /* Adjust padding */
+    }
+    .carousel-indicators li {
+        width: 8px;
+        /* Smaller indicator size */
+        height: 8px;
+        /* Smaller indicator size */
+    }
+    .carousel-inner img {
+        height: 150px;
+        /* Reduce image height for very small screens */
+    }
+    .carousel-caption h1 {
+        font-size: 1.5rem;
+        /* Further reduce heading size */
+    }
+    .carousel-caption h3 {
+        font-size: 1rem;
+        /* Further reduce subheading size */
+    }
+    .btn-primary {
+        font-size: 10px;
+        /* Adjust button text size */
+        padding: 5px 10px;
+        /* Adjust button padding */
+    }
+    .welcome {
+        width: 100%;
+        /* Ensure it fits the screen width */
+        padding-top: 0.5rem;
+        /* Adjust padding for very small screens */
+    }
+    .carousel-inner-product {
+        height: 200px;
+        /* Reduce height for very small screens */
+    }
+    .product-division-img {
+        height: 150px;
+        /* Further reduce height for mobile */
+    }
+    .affiliations-section {
+        margin-top: 20px;
+        /* Adjust margin for very small screens */
+        padding-bottom: 10px;
+        /* Adjust padding */
+    }
+    .affiliation-img {
+        height: 80px;
+        /* Reduce height of affiliation images */
+        width: auto;
+        /* Maintain aspect ratio */
+        object-fit: cover;
+    }
+    .card {
+        margin: 0 2px;
+        /* Reduce margin to maximize space */
+    }
+    .social a {
+        font-size: 1.2em;
+        /* Smaller social icon size */
+        padding: 0.3rem;
+        /* Adjust padding */
+    }
+    footer {
+        padding: 0.3rem;
+        /* Adjust footer padding */
+    }
+    .philosophy-div {
+        height: auto;
+        /* Let content dictate height */
+        width: 100%;
+    }
+    .philosophy-div img {
+        width: 100%;
+        /* Ensure image scales to container width */
+        height: auto;
+        /* Maintain aspect ratio */
+    }
+}
+
+
+/* @media (max-width: 768px) {
+    body {
+        background-color: #72dd1bd8;
+    }
+    .carousel-caption {
+        top: 45%;
+    }
+    .carousel-caption h1 {
+        font-size: 350%;
+    }
+    .carousel-caption h3 {
+        font-size: 140%;
+        font-weight: 400;
+        padding-bottom: 0.2rem;
+    }
+    .carousel-caption .btn {
+        font-size: 95%;
+        padding: 8px 14px;
+    }
+    .display-4 {
+        font-size: 200%;
+    }
+    .display-4 {
+        font-size: 200%;
+    }
+    .social a {
+        font-size: 2.5em;
+        padding: 1.2rem;
+    }
+    .carousel-inner img {
+        width: 100%;
+        height: 200px;
+    }
+    .carousel-inner-product img {
+        width: 100%;
+        height: 200px;
+    }
+    .division-right {
+        padding-right: 3rem;
+        padding-left: 3rem;
+        
+    }
+    .division-left {
+        padding-right: 3rem;
+        padding-left: 3rem;
+        
+    }
+} */
+
+
+/* @media (max-width: 576px) {
+    
+    .carousel-caption .btn {
+        font-size: 90%;
+        padding: 4px 8px;
+    }
+    .carousel-indicators {
+        display: none;
+    }
+    .display-4 {
+        font-size: 160%;
+    }
+    .social a {
+        font-size: 2em;
+        padding: 1.7rem;
+    }
+    .carousel-inner img {
+        width: 100%;
+        height: 200px;
+    }
+    .carousel-inner-product img {
+        width: 100%;
+        height: 100px;
+    }
+} */
+
+
+/*---Firefox Bug Fix --*/
+
+.carousel-item {
+    transition: -webkit-transform 0.5s ease;
+    transition: transform 0.5s ease;
+    transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
+}
+
+
+/*--- Bootstrap Padding Fix --*/
+
+[class*="col-"] {
+    padding: 1rem;
+}
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
